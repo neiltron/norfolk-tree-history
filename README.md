@@ -1,6 +1,9 @@
-# sf-tree-history
+# norfolk-tree-history
 
-Tracking the history of trees in San Francisco.
+Tracking the history of trees in Norfolk.
+
+> [!NOTE]
+> This is a fork of Simon Willison's [sf-tree-history](https://github.com/simonw/sf-tree-history) repo with only minor changes. It's an excuse for me to learn more about using github actions for automated data processing tasks. It only has minor changes for now but the goal is to modify it, add features, and base future repos/projects on learnings from this.
 
 Background: [Generating a commit log for San Francisco’s official list of trees](https://simonwillison.net/2019/Mar/13/tree-history/). See also [Git Scraping](https://simonwillison.net/2020/Oct/9/git-scraping/) for a description of the general technique.
 

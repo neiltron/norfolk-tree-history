@@ -37,7 +37,7 @@ jobs:
           # Sort all but the first line and append to that file
           tail -n +2 "Street_Tree_List-unsorted.csv" | sort >> Street_Tree_List.csv
           # Generate commit message using csv-diff
-          csv-diff Street_Tree_List-old.csv Street_Tree_List.csv --key=TreeID --singular=tree --plural=trees > message.txt
+          csv-diff Street_Tree_List-old.csv Street_Tree_List.csv --key="Tree ID" --singular=tree --plural=trees > message.txt
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
